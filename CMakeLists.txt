@@ -10,5 +10,6 @@ add_executable(medrelay
     src/main.cpp
     src/Location.cpp
     src/HospitalRecommender.cpp
+    src/ReservationService.cpp
 )
 target_include_directories(medrelay PRIVATE include)
